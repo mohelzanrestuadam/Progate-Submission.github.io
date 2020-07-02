@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +9,9 @@
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
-
 <body>
-    <header>
-
+     <header>
+     
         <div class="header" id="menu-area">
             <div class="logo">
                 <h3>My Jobs</h3>
@@ -52,7 +50,7 @@
             <h2>Recommended Jobs</h2>
         </div>
         <div class="lessons">
-
+           
             <div class="box">
                 <div class="box-icon">
 
@@ -105,7 +103,8 @@
         </div>
     </div>
 
-    <div class="footer">
+    <footer>
+           <div class="footer">
         <div class="footer-logo">My Jobs</div>
         <h3>Subscribe to get latest job post</h3>
         <p> &copy 2020</p>
@@ -113,14 +112,15 @@
             <input type="text" class="input" placeholder="your email">
             <button>SUBSCRIBE</button>
         </div>
-    </div>
+    </div> 
+</footer>
 
-    <script>
-        window.addEventListener('scroll', function() {
-            var section = document.querySelector('.header');
-            section.classList.toggle('cus-nav', window.scrollY > 0);
-        });
+     <script>
+        window.addEventListener('scroll', function(){
+  var section = document.querySelector('.header');
+  section.classList.toggle('cus-nav', window.scrollY > 0);
+});
+     
     </script>
 </body>
-
 </html>
