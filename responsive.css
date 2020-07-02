@@ -1,0 +1,13 @@
+/* Responsive untuk Tablet */
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+}
+@media all and (max-width: 670px) {
+    .top-wrapper h1 {
+        font-size: 24px;
+        text-align: left;
+        line-height: 36px;
+    }
+}
