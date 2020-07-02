@@ -1,25 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
 * {
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 a {
     text-decoration: none;
 }
+
 .container {
     max-width: 1170px;
-    width:100%;
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
 }
 
+
 /* header */
+
 #menu-area {
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
     padding: 0 100px;
     position: fixed;
     width: 100%;
@@ -40,7 +44,6 @@ a {
     display: flex;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
     font-size: 15px;
     font-weight: 500;
 }
@@ -49,7 +52,6 @@ a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-
 
 .cus-nav {
     background: #ffffff;
@@ -74,10 +76,13 @@ button:hover {
     cursor: pointer;
 }
 
+
 /* akhir header */
 
+
 /* css main */
-.top{
+
+.top {
     display: flex;
     justify-content: space-between;
     height: 550px;
@@ -88,28 +93,31 @@ button:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
     padding-top: 150px;
-    
 }
+
 #your-job {
     color: #2000ff;
 }
 
-.img-wrapper{
+.img-wrapper {
     padding-top: 100px;
 }
 
-input{
-  width:350px;
-  border-radius: 10px;
-  margin-top:10px;
-  padding:10px;
-  font-size:18px;
-  border:1px solid #2000ff;
+input {
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #2000ff;
 }
+
 
 /* batas main */
 
+
 /* css main tambahan */
+
 .lesson-wrapper {
     margin-top: 90px;
     padding-bottom: 500px;
@@ -130,7 +138,7 @@ input{
 .box {
     position: relative;
     background: #fff;
-    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
     border-radius: 10px;
     margin: 4px;
     padding-top: 5px;
@@ -146,12 +154,14 @@ input{
 .box-icon {
     position: relative;
 }
+
 .box-icon p {
     position: absolute;
     top: 44%;
     width: 50%;
     color: white;
 }
+
 .txt-contents {
     width: 80%;
     display: inline-block;
@@ -160,6 +170,7 @@ input{
     color: black;
     opacity: 0.8;
 }
+
 .box .apply {
     cursor: pointer;
     background-color: #00AA13;
@@ -169,6 +180,7 @@ input{
     float: right;
     border-radius: 10px;
     margin-bottom: 9px;
+}
 
 #see-more {
     float: right;
@@ -179,7 +191,6 @@ input{
     border-radius: 8px;
 }
 
-}
 #see-more {
     float: right;
     margin-top: 20px;
