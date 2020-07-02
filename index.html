@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Jobs</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="header" id="menu-area">
+            <div class="logo">
+                <h3>My Jobs</h3>
+
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Post Jobs</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><button type="button" class="btn-navbar">Sign in</button></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <!-- main -->
+    <div class="top-wrapper">
+        <div class="container">
+            <div class="top">
+                <div class="text-wrapper">
+                    <h1>Find <span id="your-job">your job</span> here<br> get your future</h1>
+                    <input type="search" placeholder="Search your job" class="search">
+                </div>
+
+                <div class="img-wrapper">
+                    <img src="resource/image.png" style="height: 450px;">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- main tambahan -->
+    <div class="lesson-wrapper">
+        <div class="heading">
+            <h2>Recommended Jobs</h2>
+        </div>
+        <div class="lessons">
+
+            <div class="box">
+                <div class="box-icon">
+
+                    <img src="resource/indodax.png" alt="Indodax">
+
+                </div>
+                <p class="txt-contents">Dev Ops</p>
+                <p class="pt">PT. Indodax</p>
+                <p class="txt-contents">Jakarta, Indonesia</p>
+                <a href="#" class="apply">Apply</a>
+            </div>
+
+            <div class="box">
+                <div class="box-icon">
+
+                    <img src="resource/gojek.png" alt="">
+                </div>
+                <p class="txt-contents">Android Developer</p>
+                <p class="pt">PT. Aplikasi Karya Anak Bangsa</p>
+                <p class="txt-contents">Jakarta Selatan, Indonesia</p>
+                <a href="#" class="apply">Apply</a>
+            </div>
+
+            <div class="box">
+                <div class="box-icon">
+
+                    <img style="width: 200px; height: 200px;" src="resource/indomaret.png" alt="Indomaret">
+
+                </div>
+                <p class="txt-contents">Back End Developer</p>
+                <p class="pt">Indomaret Group</p>
+                <p class="txt-contents">Jakarta, Indonesia</p>
+                <a href="#" class="apply">Apply</a>
+            </div>
+
+            <div class="box">
+                <div class="box-icon">
+
+                    <img src="resource/shopee.png" alt="">
+
+                </div>
+                <p class="txt-contents">Front End Developer</p>
+                <p class="pt">Shopee</p>
+                <p class="txt-contents">Jakarta Utara, Indonesia</p>
+                <a href="#" class="apply">Apply</a>
+            </div>
+            <div id="see-more">
+                <a href="#" style="color: white;">See more</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-logo">My Jobs</div>
+        <h3>Subscribe to get latest job post</h3>
+        <p> &copy 2020</p>
+        <div class="newsletter">
+            <input type="text" class="input" placeholder="your email">
+            <button>SUBSCRIBE</button>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            var section = document.querySelector('.header');
+            section.classList.toggle('cus-nav', window.scrollY > 0);
+        });
+    </script>
+</body>
+
+</html>
