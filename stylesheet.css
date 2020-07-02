@@ -69,7 +69,6 @@ a {
     border-radius: 10px;
     transition: .6s;
     overflow: hidden;
-    position: absolute;
 }
 
 button:hover {
